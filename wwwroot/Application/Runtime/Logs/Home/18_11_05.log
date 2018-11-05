@@ -1623,3 +1623,99 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000905s ]
 INFO: [ app_end ] --END-- [ RunTime:0.000946s ]
 
+[ 2018-11-05T13:51:14+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000813s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000857s ]
+
+[ 2018-11-05T13:51:16+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000460s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000889s ]
+
+[ 2018-11-05T13:51:38+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000837s ]
+
+[ 2018-11-05T13:52:17+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000543s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000879s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000922s ]
+NOTIC: [8] Undefined index: keyword C:\phpStudy\PHPTutorial\WWW\php-admin\wwwroot\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: plan C:\phpStudy\PHPTutorial\WWW\php-admin\wwwroot\Application\Home\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Undefined index: unit C:\phpStudy\PHPTutorial\WWW\php-admin\wwwroot\Application\Home\Controller\IndexController.class.php 第 11 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'master'@'localhost' (using password: YES)
+
+[ 2018-11-05T13:53:12+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000766s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000653s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000711s ]
+NOTIC: [8] Undefined index: keyword C:\phpStudy\PHPTutorial\WWW\php-admin\wwwroot\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: plan C:\phpStudy\PHPTutorial\WWW\php-admin\wwwroot\Application\Home\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Undefined index: unit C:\phpStudy\PHPTutorial\WWW\php-admin\wwwroot\Application\Home\Controller\IndexController.class.php 第 11 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'master'@'localhost' (using password: YES)
+
+[ 2018-11-05T13:56:18+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000447s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+NOTIC: [8] Undefined index: keyword C:\phpStudy\PHPTutorial\WWW\php-admin\wwwroot\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: plan C:\phpStudy\PHPTutorial\WWW\php-admin\wwwroot\Application\Home\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Undefined index: unit C:\phpStudy\PHPTutorial\WWW\php-admin\wwwroot\Application\Home\Controller\IndexController.class.php 第 11 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'master'@'localhost' (using password: YES)
+
+[ 2018-11-05T13:56:19+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000637s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000944s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000994s ]
+NOTIC: [8] Undefined index: keyword C:\phpStudy\PHPTutorial\WWW\php-admin\wwwroot\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: plan C:\phpStudy\PHPTutorial\WWW\php-admin\wwwroot\Application\Home\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Undefined index: unit C:\phpStudy\PHPTutorial\WWW\php-admin\wwwroot\Application\Home\Controller\IndexController.class.php 第 11 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'master'@'localhost' (using password: YES)
+
+[ 2018-11-05T13:56:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000461s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000873s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+NOTIC: [8] Undefined index: keyword C:\phpStudy\PHPTutorial\WWW\php-admin\wwwroot\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: plan C:\phpStudy\PHPTutorial\WWW\php-admin\wwwroot\Application\Home\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Undefined index: unit C:\phpStudy\PHPTutorial\WWW\php-admin\wwwroot\Application\Home\Controller\IndexController.class.php 第 11 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'master'@'localhost' (using password: YES)
+
+[ 2018-11-05T13:56:20+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000863s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000907s ]
+NOTIC: [8] Undefined index: keyword C:\phpStudy\PHPTutorial\WWW\php-admin\wwwroot\Application\Home\Controller\IndexController.class.php 第 9 行.
+NOTIC: [8] Undefined index: plan C:\phpStudy\PHPTutorial\WWW\php-admin\wwwroot\Application\Home\Controller\IndexController.class.php 第 10 行.
+NOTIC: [8] Undefined index: unit C:\phpStudy\PHPTutorial\WWW\php-admin\wwwroot\Application\Home\Controller\IndexController.class.php 第 11 行.
+ERR: SQLSTATE[HY000] [1045] Access denied for user 'master'@'localhost' (using password: YES)
+

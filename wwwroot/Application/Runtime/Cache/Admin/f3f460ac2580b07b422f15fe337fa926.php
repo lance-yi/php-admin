@@ -104,7 +104,9 @@ input.date{background: #fff url(/Public/images/Admin/date.png) no-repeat right 1
 				<!--<th width="15%" style="text-align:center;">地址</th>
 				<th width="25%" style="text-align:center;">留言</th>-->
 				<th width="10%" style="text-align:center;">标识</th>	
-				<th width="10%" style="text-align:center;">留言时间</th>			
+				<th width="10%" style="text-align:center;">留言时间</th>		
+				<th width="10%" style="text-align:center;">产品规格</th>	
+				<th width="10%" style="text-align:center;">数量</th>		
 				<th width="5%" style="text-align:center; border-right:1px solid #CCCCCC;">操作</th>
 			</tr>
 			<?php if(is_array($GuestbookList)): $i = 0; $__LIST__ = $GuestbookList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$GuestbookLists): $mod = ($i % 2 );++$i;?><tr>
@@ -122,6 +124,8 @@ input.date{background: #fff url(/Public/images/Admin/date.png) no-repeat right 1
 					<td style="text-align:center;" class="hots"><a href="javasript:void(0);" style="color:red;">未读</a></td><?php endif; ?>
 				-->
 				<td style="text-align:center;"><?php echo (date("Y-n-j H:i:s",$GuestbookLists["create_time"])); ?></td>
+				<td style="text-align:center;"><?php echo ($GuestbookLists["product"]); ?></td>
+				<td style="text-align:center;"><?php echo ($GuestbookLists["num"]); ?></td>
 				<td style="text-align:center; border:1px solid #CCCCCC;">
 					<a href="/Admin/Guestbook/initReadGuestbook/<?php echo ($GuestbookLists["id"]); ?>">查看</a>
 				</td>

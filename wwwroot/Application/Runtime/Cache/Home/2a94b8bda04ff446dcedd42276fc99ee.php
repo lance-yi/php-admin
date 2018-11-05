@@ -760,6 +760,7 @@
 								<label class="now"><input type="radio" name="product" id="a0" value="【促销A】53°飞天茅台酒2箱12瓶【赠送6个礼袋+验酒器】9900元" alt="9900"
 									 checked="" onclick="pricea();xianshi();">&nbsp;【促销A】53°飞天茅台酒2箱12瓶【赠送6个礼袋+验酒器】&nbsp;&nbsp;9900元<i></i></label>
 								<label><input type="radio" name="product" id="a1" value="【促销B】53°飞天茅台酒1箱6瓶【赠送3个礼袋+验酒器】5100元" alt="5100" onclick="pricea();xianshi();">&nbsp;【促销B】53°飞天茅台酒1箱6瓶【赠送3个礼袋+验酒器】&nbsp;&nbsp;5100元<i></i></label>
+								<label><input type="radio" name="product" id="a2" value="【促销C】53°飞天茅台酒4箱24瓶【赠送24个礼袋+验酒器】17900元" alt="17900" onclick="pricea();xianshi();">&nbsp;【促销C】53°飞天茅台酒4箱24瓶【赠送24个礼袋+验酒器】&nbsp;&nbsp;17900元<i></i></label>
 							</div>
 						</div>
 
@@ -768,7 +769,6 @@
 						<input value="1" id="zsid" type="hidden">
 						<div id="zengsong" style="display: block;">
 							<!--赠送属性b-->
-
 							<!--赠送属性e-->
 						</div>
 
@@ -861,7 +861,7 @@
 				xianshi();
 				var shuxing = new Array();
 				var zsshuxing = new Array();
-				var not3chanpin = new Array("【促销A】53°飞天茅台酒2箱12瓶【赠送6个礼袋+验酒器】", "【促销B】53°飞天茅台酒1箱6瓶【赠送3个礼袋+验酒器】");
+				var not3chanpin = new Array("【促销A】53°飞天茅台酒2箱12瓶【赠送6个礼袋+验酒器】", "【促销B】53°飞天茅台酒1箱6瓶【赠送3个礼袋+验酒器】","【促销C】53°飞天茅台酒4箱24瓶【赠送24个礼袋+验酒器】");
 				var chanpin1 = new Array();
 				var chanpin2 = new Array();
 				var chanpin3 = new Array();

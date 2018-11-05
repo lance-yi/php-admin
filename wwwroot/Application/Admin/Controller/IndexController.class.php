@@ -35,7 +35,8 @@ class IndexController extends Controller {
 	public function login(){
     	$code= I('post.checkcode');
     	$name = I('post.name');
-    	$pwd = md5(md5(I('post.pwd')));
+			$pwd = md5(md5(I('post.pwd')));
+	
     	if(empty($name) || empty($pwd)){
     		$this->error('用户名或密码不能为空!');
     	}else{

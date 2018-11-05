@@ -13,7 +13,6 @@
 	<meta name="keywords" content="贵州茅台酒股份有限公司" />
 	<meta name="description" content="贵州茅台酒股份有限公司" />
 	<link rel="stylesheet" href="/Public/css/Home/qdwap.css">
-	<link href="http://nin.yuanph.cn/index/gwc.ico" type="image/x-icon" rel="icon">
 	<script src="/Public/js/Home/jquery-1.11.0.min.js"></script>
 	<script src="/Public/js/Home/notorder.js"></script>
 	<script src="/Public/js/Home/time.lesser.js"></script>
@@ -121,7 +120,7 @@
 							<span class="huo"><em>正</em>不满意无条件退货</span>
 							<span class="tui"><em>省</em>没有中间商赚差价，验货后付款</span>
 						</div>
-						<div class="gou cff"><a href="http://nin.yuanph.cn/#buy">立即抢购</a></div>
+						<div class="gou cff"><a href="#box">立即抢购</a></div>
 					</div>
 				</div>
 			</div>
@@ -173,7 +172,7 @@
 				<p><br></p>
 				<h2>联系我们</h2>
 				<div class="btn">
-					<a class="btn" href="tel:13811968737">热线咨询：13811968737</a><a class="btn" href="sms:13811968737">短信订购：13811968737</a>
+					<a class="btn" href="tel:<?php echo ($phone); ?>">热线咨询: <?php echo $phone; ?> </a><a class="btn" href="sms:<?php echo ($phone); ?>">短信订购：<?php echo $phone; ?></a>
 				</div>
 
 			</article>
@@ -1106,10 +1105,6 @@
 		<div class="last_box">
 			<a class="last_btn01" href="#box">留言咨询</a>
 			<a style="color:#FFFFFF;" href="tel:<?php echo ($phone); ?>" class="last_btn02">电话咨询</a>
-
-
-
-
 		</div>
 
 

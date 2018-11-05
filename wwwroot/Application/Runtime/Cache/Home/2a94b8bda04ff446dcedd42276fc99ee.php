@@ -49,7 +49,7 @@
 	</script>
 
 	<script type="text/javascript">
-		var t = remote_ip_info;
+		var t = '';
 		var xqxcity = "北京#贵州#贵阳#遵义#铜仁#深圳#广州#";
 		if (t.city != "") {
 			if (xqxcity.indexOf(t.city) > -1) {
@@ -103,7 +103,7 @@
 									<dt>活动倒计时</dt>
 									<dd>
 										<div class="time-count">
-											<div id="remainTime_1" class="jltimer"><span>00</span>天<span>05</span>小时<span>54</span>分<span>35</span>秒</div>
+											<div id="reward_1" class="jltimer"><span>00</span>天<span>05</span>小时<span>54</span>分<span>35</span>秒</div>
 										</div>
 									</dd>
 								</dl>
@@ -111,6 +111,41 @@
 							</div>
 						</div>
 					</div>
+					<script>
+						$(document).ready(function () {
+							//倒计时效果js代码
+							function checktime(i){
+								if(i<10){
+										i="0"+i;
+						
+								}
+								else{i=i;}
+								return i;
+							}
+							function freshTime(){
+								var endtime=new Date('2018/11/12');
+								var nowtime=new Date();
+								var lefttime=parseInt(endtime.getTime()-nowtime.getTime());//这是毫秒，如果再/1000就是秒
+								// 获取剩下的日、小时、分钟、秒钟
+								// 一天有多少毫秒，一小时有多少毫秒，一分钟有多少毫秒，一秒钟有多少毫秒
+								var dm=24*60*60*1000;
+								var d=parseInt(lefttime/dm);
+								var hm=60*60*1000;
+								var h=parseInt((lefttime/hm)%24);
+								var mm=60*1000;
+								var m=parseInt((lefttime/mm)%60);
+								var s=parseInt((lefttime/1000)%60);
+								m=checktime(m);
+								s=checktime(s);
+								document.getElementById('reward_1').innerHTML="<span>"+d+"</span>天<span>"+h+"</span>小时<span>"+m+"</span>分<span>"+s+"</span>秒";
+								if (lefttime<0) {
+									document.getElementById('reward_1').innerHTML="活动已经结束！";
+								}
+							} 
+							freshTime();
+							var sh = setInterval(freshTime,1000)
+						});
+					</script>
 					<div style="clear:both"></div>
 					<div class="titless">
 						<div class="f20"></div>
@@ -124,9 +159,6 @@
 					</div>
 				</div>
 			</div>
-
-
-
 			<article class="showcontent">
 
 				<h2>购买描述</h2>
@@ -759,7 +791,6 @@
 								<input type="text" name="mob" id="mob">
 							</div>
 						</div>
-
 						<div class="bdbox">
 							<label class="bdxx"><em>*</em>地区</label>
 							<div class="xlbox">
@@ -1099,18 +1130,10 @@
 
 
 	<hgroup id="last_box">
-
-
-
 		<div class="last_box">
 			<a class="last_btn01" href="#box">留言咨询</a>
 			<a style="color:#FFFFFF;" href="tel:<?php echo ($phone); ?>" class="last_btn02">电话咨询</a>
 		</div>
-
-
-
-
-
 	</hgroup>
 	<?php echo ($code); ?>
 	<script>

@@ -173,7 +173,7 @@ class GuestbookController extends IndexController{
 		$this->checkLogin();
 		$fromtime = strtotime($_GET['fromtime']);
 		$totime = strtotime($_GET['totime']);
-		$data = M('guestbook')->where("create_time >= '{$fromtime}' and create_time <='{$totime}'")->limit($Page->firstRow.','.$Page->listRows)->order('create_time desc')->getField("id,name,phone,diqu,create_time,product,num");
+		$data = M('guestbook')->where("create_time >= '{$fromtime}' and create_time <='{$totime}'")->limit($Page->firstRow.','.$Page->listRows)->order('create_time desc')->getField("id,name,phone,diqu,address,content,create_time,product,num");
 		foreach($data as &$val){
 			$val['create_time'] = date('Y-m-d H:i:s',$val['create_time']);
 		}
@@ -182,7 +182,7 @@ class GuestbookController extends IndexController{
 		import("Org.Util.PHPExcel.IOFactory.php");
 
 		$filename="Guestbook";
-		$headArr=array("id","姓名","电话","标识","留言时间","产品规格","数量");
+		$headArr=array("id","姓名","电话","标识","留言时间","收货地址","备注","产品规格","数量");
 		$this->getExcel($filename,$headArr,$data);
 	}
 	

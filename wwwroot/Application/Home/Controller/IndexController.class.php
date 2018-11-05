@@ -49,7 +49,7 @@ class IndexController extends Controller {
 		$number = clean(trim(I('post.mun')));
 		//留言者地址
 		$content = clean(trim(I('post.guest')));
-		$address = clean(trim(I('post.address')));
+		$address = clean(trim(I('post.province'))).clean(trim(I('post.city'))).clean(trim(I('post.area'))).clean(trim(I('post.address')));
 		//留言者ip
 		$mip = $_SERVER["REMOTE_ADDR"];
 		//标示
@@ -81,7 +81,7 @@ class IndexController extends Controller {
     	// 	echo "
 			// <meta http-equiv='Content-Type' content='text/html; charset=utf-8' />
 			// <script>alert('请正确填写手机');history.back(-1);</script>";
-    	// }
+			// }
     	load("@.jm");
     	$mob = gbcrypt($mobile, 'ENCODE');
 			//$ema = gbcrypt($email, 'ENCODE');

@@ -101,12 +101,12 @@ input.date{background: #fff url(/Public/images/Admin/date.png) no-repeat right 1
 				<th width="4%" style="text-align:center;">id</th>
 				<th width="4%" style="text-align:center;">姓名</th>
 				<th width="5%" style="text-align:center;">电话</th>		
-				<!--<th width="15%" style="text-align:center;">地址</th>
-				<th width="25%" style="text-align:center;">留言</th>-->
+				<th width="10%" style="text-align:center;">地址</th>
+				<th width="20%" style="text-align:center;">留言</th>
 				<th width="10%" style="text-align:center;">标识</th>	
 				<th width="10%" style="text-align:center;">留言时间</th>		
 				<th width="10%" style="text-align:center;">产品规格</th>	
-				<th width="10%" style="text-align:center;">数量</th>		
+				<th width="5%" style="text-align:center;">数量</th>		
 				<th width="5%" style="text-align:center; border-right:1px solid #CCCCCC;">操作</th>
 			</tr>
 			<?php if(is_array($GuestbookList)): $i = 0; $__LIST__ = $GuestbookList;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$GuestbookLists): $mod = ($i % 2 );++$i;?><tr>
@@ -114,8 +114,8 @@ input.date{background: #fff url(/Public/images/Admin/date.png) no-repeat right 1
 				<td style="text-align:center;"><?php echo ($GuestbookLists["id"]); ?></td>
 				<td style="text-align:center;"><?php echo ($GuestbookLists["name"]); ?></td>
 				<td style="text-align:center;"><?php echo ($GuestbookLists["phone"]); ?></td>			
-				<!--<td style="text-align:center;"><?php echo ($GuestbookLists["address"]); ?></td>	
-				<td style="text-align:center;"><?php echo ($GuestbookLists["content"]); ?></td>-->
+				<td style="text-align:center;"><?php echo ($GuestbookLists["address"]); ?></td>	
+				<td style="text-align:center;"><?php echo ($GuestbookLists["content"]); ?></td>
 				<td style="text-align:center;"><?php echo ($GuestbookLists["diqu"]); ?></td>
 				<!--<td style="text-align:center;"><a href="https://www.baidu.com/s?wd=<?php echo ($GuestbookLists["mip"]); ?>" target="_blank"><?php echo ($GuestbookLists["mip"]); ?></a></td>-->
 				<!--

@@ -61,3 +61,6 @@ ERR: 无法加载模块:Favicon
 [ 2018-11-05T18:54:50+08:00 ] 127.0.0.1 /favicon.ico
 ERR: 无法加载模块:Favicon
 
+[ 2018-11-05T19:54:55+08:00 ] 127.0.0.1 /Public/images/Home/favicon.ico
+ERR: 无法加载模块:Public
+

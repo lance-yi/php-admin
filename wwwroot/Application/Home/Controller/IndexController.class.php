@@ -90,17 +90,17 @@ class IndexController extends Controller {
     	}
     	else{
     		if($_POST){
-					$con = mysql_connect('127.0.0.1','root','root@_^toor');
+				  $con = mysql_connect('127.0.0.1','master','master@3306');
 					mysql_select_db('jiu',$con);
 					mysql_query('set names utf8');
 					$sql33 = "SELECT `create_time` FROM `guestbook` WHERE ( mip = '{$mip}' ) ORDER BY create_time desc LIMIT 1";
 					$result = mysql_query($sql33,$con);
 					$result1 = mysql_fetch_array($result);
-				
 					if(time() - $result1['0'] < 3600){
 						echo "<script>alert('提交过于频繁，请稍后再试!');history.go(-1);</script>";
-					}else{
-						$con = mysql_connect('127.0.0.1','root','root@_^toor');
+					}
+					else{
+						$con = mysql_connect('127.0.0.1','master','master@3306');
 						mysql_select_db('jiu',$con);
 						mysql_query('set names utf8');
 						$sql3 = "insert into guestbook(name,phone,address,content,is_read,diqu,create_time,product,num)  values('$name','$mobile','$address','$content','0','$froms','$dateline','$product','$number')";
@@ -113,7 +113,6 @@ class IndexController extends Controller {
 						}
 					}
     		}
-    	}
     }
 	
 	

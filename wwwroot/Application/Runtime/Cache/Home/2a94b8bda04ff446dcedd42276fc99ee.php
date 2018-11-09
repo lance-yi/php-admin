@@ -359,19 +359,9 @@
 		
 					<script type="text/javascript" src="/Public/js/Home/diqu.js"></script>
 					<script type="text/javascript" src="/Public/js/Home/not3.js"></script>
-					<script src="/Public/js/Home/demo.js"></script>
-					<script>
-						$(function () {
-							$("img").lazyload({
-								threshold: 500,
-								effect: "fadeIn"
-							});
-		
-						});
-					</script>
 					<!--订单-->
 				</article>
-			<article>
+			<article class="showcontent">
 				<h2>产品简介</h2>
 				<p>
 					<img src="/Public/images/Home/TB2T8lOdIj_B1NjSZFHXXaDWpXa_!!767173256.jpg" style="display: block;">
@@ -399,27 +389,9 @@
 			</article>
 			
 			<article>
-				<!-- <h2>客户评价</h2>
-
-				<div class="container">
-					<div style="display:none">
-						<iframe id="msg" name="msg" width="0" height="0" src="/Public/images/Home/saved_resource.html"></iframe>
-					</div>
-					<form id="contact" method="post" target="msg">
-						<fieldset>
-							<input placeholder="您的手机号码" name="dianhua" type="text" tabindex="1" required="">
-						</fieldset>
-						<fieldset>
-							<textarea placeholder="您的评价内容" name="pingjia" tabindex="5" required=""></textarea>
-						</fieldset>
-						<fieldset>
-							<button name="submit" type="submit" id="contact-submit">提交评价</button>
-						</fieldset>
-					</form>
-				</div> -->
+				<h2>客户评价</h2>
 
 				<div id="pingjia" class="pingjia">
-
 					<div class="comment">
 						<div class="comment-inner" style="margin-top: -715.561px;">
 							<div class="comment-content">5月7号下单的，今天11号就收到了！顺便说下，快递很快，没问题，喝茅台10来年了，这个年中大促活动，价格差不多就是出厂价了，商家有良心，必须给好评！</div>
@@ -896,6 +868,32 @@
 				</div>
 			</article>
 
+			<div class="container">
+				<div style="display:none">
+					<iframe id="msg" name="msg" width="0" height="0" src="/Public/images/Home/saved_resource.html"></iframe>
+				</div>
+				<form id="contact" method="post" action="/add" target="msg">
+					<fieldset>
+						<input placeholder="您的手机号码" name="dianhua" type="text" tabindex="1" required="">
+					</fieldset>
+					<fieldset>
+						<textarea placeholder="您的评价内容" name="pingjia" tabindex="5" required=""></textarea>
+					</fieldset>
+					<fieldset>
+						<button name="submit" type="submit" onclick="alert('提交成功!')">提交评价</button>
+					</fieldset>
+				</form>
+			</div>
+			<script src="/Public/js/Home/demo.js"></script>
+			<script>
+				$(function () {
+					$("img").lazyload({
+						threshold: 500,
+						effect: "fadeIn"
+					});
+
+				});
+			</script>
 		</div>
 		<footer>
 			<p><img src="/Public/images/Home/foot.png"></p>

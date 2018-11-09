@@ -185,7 +185,6 @@
 				<p><img src="/Public/images/Home/TB2f8j.m8smBKNjSZFsXXaXSVXa_!!767173256.jpg" style="display: block;"></p>
 				<p><img src="/Public/images/Home/TB2BmqBeKySBuNjy1zdXXXPxFXa_!!767173256.gif" style="display: block;"></p>
 				<p><br></p>
-				<h2>产品简介</h2>
 				<p>
 					<img src="/Public/images/Home/TB22YpKm1SSBuNjy0FlXXbBpVXa_!!767173256.jpg" style="display: block;">
 					<img src="/Public/images/Home/TB2iPalmY9YBuNjy0FgXXcxcXXa_!!767173256.jpg" style="display: block;">
@@ -194,6 +193,187 @@
 					<img src="/Public/images/Home/TB2agZOsm8YBeNkSnb4XXaevFXa_!!767173256.jpg" style="display: block;">
 					<img src="/Public/images/Home/TB2SZkVb8gXBuNjt_hNXXaEiFXa_!!767173256.jpg" style="display: block;">
 					<img src="/Public/images/Home/TB2gHX0dH3nBKNjSZFMXXaUSFXa_!!767173256.jpg" style="display: block;">
+				</p>
+			</article>
+			<article id="ddd">
+					<h2>订单信息</h2>
+					<!--订单-->
+					<div class="cpshuoming">
+						<p><span style="margin: 0px; color: rgb(192, 0, 0); font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 20px; box-sizing: border-box; background-color: rgb(249, 249, 249);">正品<strong>53°飞天茅台酒</strong>，<strong>整箱购买更优惠</strong>！每人仅限抢购</span><span
+							 style="margin: 0px; color: rgb(192, 0, 0); font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 24px; box-sizing: border-box; background-color: rgb(249, 249, 249);"><strong
+								 style="margin: 0px; box-sizing: border-box;">1次</strong></span><span style="margin: 0px; color: rgb(192, 0, 0); font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 20px; box-sizing: border-box; background-color: rgb(249, 249, 249);">，限购<span
+								 style="margin: 0px; font-size: 24px;"><strong>4箱</strong></span>，售完即止！</span><span style="margin: 0px; color: rgb(192, 0, 0); font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 20px; box-sizing: border-box; background-color: rgb(249, 249, 249);"></span><span
+							 style="margin: 0px; color: rgb(192, 0, 0); font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 20px; box-sizing: border-box; background-color: rgb(249, 249, 249);"><img
+								 src="/Public/images/Home/TB2_67rbcIrBKNjSZK9XXagoVXa_!!767173256.gif"></span></p>
+					</div>
+					<style>
+		
+						#order .chanpin label{border: 1px #ccc solid;
+						padding: 0px 13px;
+						float: left;
+						margin-right: 7px;
+						display: inline;
+						margin-bottom: 6px;
+						overflow: hidden;
+						position: relative;
+						cursor: pointer;
+						border-radius: 2px;
+						line-height: 33px;
+						vertical-align: middle;
+						background:#ffffff;
+						}
+						#order .chanpin input[type="radio"] {
+						cursor: pointer;    height: 33px;    left: 0;    opacity: 0;    position: absolute;    top: 0;    width: 100%;    z-index: 999;
+						}
+						#order .chanpin .now{background:#f66;border:1px solid #ccc;color:#ffffff;text-shadow: 0 0 0 #fff;}
+						#order .chanpin label:hover{background:#f66;border:1px solid #FC9F9F;color:#ffffff;text-shadow: 0 0 0 #fff;}
+		
+					</style>
+								<!-- 表单 -->
+				<div id="order">
+						<script>var notzfbzk="0";</script>
+						<div id="box" class="warp">
+							<form id="form" name="form" action="/add" method="post" enctype="multipart/form-data" method="post" class="J_msgForm"
+							 id="info" onsubmit="return postcheck()">
+								<input type="hidden" name="orderid" id="orderid" value="no.2018114195215975">
+								<div class="bdbox">
+									<label class="bdxx"><em>*</em>产品</label>
+									<div class="dxbox red chanpin not3chanpin0">
+										<label class="now"><input type="radio" name="product" id="a0" value="【促销A】53°飞天茅台酒1箱6瓶【赠送3个礼袋+验酒器】5100元" alt="5100"
+											 checked onclick="pricea();xianshi();">&nbsp;【促销A】53°飞天茅台酒1箱6瓶【赠送3个礼袋+验酒器】&nbsp;&nbsp;5100元<i></i></label>
+										<label><input type="radio" name="product" id="a1" value="【促销B】53°飞天茅台酒2箱12瓶【赠送6个礼袋+验酒器】9900元" alt="9900"
+											 onclick="pricea();xianshi();">&nbsp;【促销B】53°飞天茅台酒2箱12瓶【赠送6个礼袋+验酒器】&nbsp;&nbsp;9900元<i></i></label>
+										<label><input type="radio" name="product" id="a2" value="【促销C】53°飞天茅台酒4箱24瓶【赠送24个礼袋+验酒器】17900元" alt="17900"
+											 onclick="pricea();xianshi();">&nbsp;【促销C】53°飞天茅台酒4箱24瓶【赠送24个礼袋+验酒器】&nbsp;&nbsp;17900元<i></i></label>
+									</div>
+								</div>
+		
+								<!--附加属性b-->
+								<!--附加属性e-->
+								<input value="1" id="zsid" type="hidden">
+								<div id="zengsong" style="display: block;">
+									<!--赠送属性b-->
+									<!--赠送属性e-->
+								</div>
+		
+								<div class="bdbox">
+									<label class="bdxx"><em>*</em>数量</label>
+		
+									<a class="jian" href="javascript:;" onclick="minnumber()">-</a>
+									<input type="text" class="shuliang" size="4" value="1" name="mun" id="mun" onblur="inputnumber();" readonly="">
+									<a class="jia" href="javascript:;" onclick="addnumber()">+</a>
+								</div>
+								<div class="bdbox">
+									<label class="bdxx"><em>*</em>姓名</label>
+									<div class="textbox">
+										<input type="text" name="name">
+									</div>
+								</div>
+								<div class="bdbox">
+									<label class="bdxx"><em>*</em>手机</label>
+									<div class="textbox">
+										<input type="text" name="mob" id="mob">
+									</div>
+								</div>
+								<div class="bdbox">
+									<label class="bdxx"><em>*</em>地区</label>
+									<div class="xlbox">
+										<select name="province" class="dqxl">
+										</select><select name="city" class="dqxl">
+										</select><select name="area" class="dqxl">
+										</select>
+									</div>
+								</div>
+								<div class="bdbox">
+									<label class="bdxx"><em>*</em>地址</label>
+									<div class="textbox">
+										<input type="text" name="address">
+									</div>
+								</div>
+								<div class="bdbox">
+									<label class="bdxx"><em>*</em>金额</label>
+									<div class="text3box">
+										<input type="hidden" name="zfbprice" value="9900">
+										<input name="price" value="9900" readonly="" style="width:80px;"> 元 <span id="zfbyh"></span>
+									</div>
+								</div>
+		
+		
+								<div class="bdbox">
+									<label class="bdxx"><em>*</em>付款</label>
+									<div class="dxbox">
+										<input type="radio" checked="checked" name="pay" id="b1" value="cod" onclick="return changeItem(0);"><label for="b1"><img
+											 src="/Public/images/Home/hdfk.gif"></label>
+		
+		
+									</div>
+								</div>
+		
+								<div class="bdbox">
+									<label class="bdxx">留言</label>
+									<div class="text2box">
+										<textarea name="guest"></textarea>
+									</div>
+								</div>
+								<div class="subbox">
+									<input type='hidden' name='shijian' id='shijian' placeholder="">
+									<script type="text/javascript">
+										window.onload = function () {
+											var nowDate = new Date();
+											var str = nowDate.getFullYear() + "-" + (nowDate.getMonth() + 1) + "-" + nowDate.getDate() + " " + nowDate.getHours() +
+												":" + nowDate.getMinutes() + ":" + nowDate.getSeconds();
+											document.getElementById("shijian").value = str;
+										}
+									</script>
+									<input type="submit" name="submit" value="立即提交订单">
+									<input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>" />
+									<input type="hidden" name="keyword" value="<?php echo $_COOKIE['keyword']; ?>" />
+									<input type="hidden" name="plan" value="<?php echo $_COOKIE['plan']; ?>" />
+									<input type="hidden" name="unit" value="<?php echo $_COOKIE['unit']; ?>" />
+								</div>
+								<input type="hidden" value="47" name="tltime">
+							</form>
+							<div style="clear:both;"></div>
+						</div>
+					</div>
+					<script>
+						
+						xianshi();
+						var shuxing = new Array();
+						var zsshuxing = new Array();
+						var not3chanpin = new Array("【促销A】53°飞天茅台酒1箱6瓶【赠送3个礼袋+验酒器】", "【促销B】53°飞天茅台酒2箱12瓶【赠送6个礼袋+验酒器】",
+							"【促销C】53°飞天茅台酒4箱24瓶【赠送24个礼袋+验酒器】");
+						var chanpin1 = new Array();
+						var chanpin2 = new Array();
+						var chanpin3 = new Array();
+						var abc1 = new Array();
+						var abc2 = new Array();
+						var abc3 = new Array();
+						var abz1 = new Array();
+						var abz2 = new Array();
+						var abz3 = new Array();
+					</script>
+					<div id="fahuo">
+						<script type="text/javascript" src="/Public/js/Home/fahuo.js"></script>
+					</div>
+		
+					<script type="text/javascript" src="/Public/js/Home/diqu.js"></script>
+					<script type="text/javascript" src="/Public/js/Home/not3.js"></script>
+					<script src="/Public/js/Home/demo.js"></script>
+					<script>
+						$(function () {
+							$("img").lazyload({
+								threshold: 500,
+								effect: "fadeIn"
+							});
+		
+						});
+					</script>
+					<!--订单-->
+				</article>
+			<article>
+				<h2>产品简介</h2>
+				<p>
 					<img src="/Public/images/Home/TB2T8lOdIj_B1NjSZFHXXaDWpXa_!!767173256.jpg" style="display: block;">
 					<img src="/Public/images/Home/TB2Slo.drwrBKNjSZPcXXXpapXa_!!767173256.jpg" style="display: block;">
 					<img src="/Public/images/Home/TB28lQam_tYBeNjy1XdXXXXyVXa_!!767173256.jpg" style="display: block;">
@@ -218,130 +398,6 @@
 
 			</article>
 			
-			<!-- 表单 -->
-			<div id="order">
-					<script>var notzfbzk="0";</script>
-					<div id="box" class="warp">
-						<form id="form" name="form" action="/add" method="post" enctype="multipart/form-data" method="post" class="J_msgForm"
-						 id="info" onsubmit="return postcheck()">
-							<input type="hidden" name="orderid" id="orderid" value="no.2018114195215975">
-							<div class="bdbox">
-								<label class="bdxx"><em>*</em>产品</label>
-								<div class="dxbox red chanpin not3chanpin0">
-									<label class="now"><input type="radio" name="product" id="a0" value="【促销A】53°飞天茅台酒1箱6瓶【赠送3个礼袋+验酒器】5100元" alt="5100"
-										 checked onclick="pricea();xianshi();">&nbsp;【促销A】53°飞天茅台酒1箱6瓶【赠送3个礼袋+验酒器】&nbsp;&nbsp;5100元<i></i></label>
-									<label><input type="radio" name="product" id="a1" value="【促销B】53°飞天茅台酒2箱12瓶【赠送6个礼袋+验酒器】9900元" alt="9900"
-										 onclick="pricea();xianshi();">&nbsp;【促销B】53°飞天茅台酒2箱12瓶【赠送6个礼袋+验酒器】&nbsp;&nbsp;9900元<i></i></label>
-									<label><input type="radio" name="product" id="a2" value="【促销C】53°飞天茅台酒4箱24瓶【赠送24个礼袋+验酒器】17900元" alt="17900"
-										 onclick="pricea();xianshi();">&nbsp;【促销C】53°飞天茅台酒4箱24瓶【赠送24个礼袋+验酒器】&nbsp;&nbsp;17900元<i></i></label>
-								</div>
-							</div>
-	
-							<!--附加属性b-->
-							<!--附加属性e-->
-							<input value="1" id="zsid" type="hidden">
-							<div id="zengsong" style="display: block;">
-								<!--赠送属性b-->
-								<!--赠送属性e-->
-							</div>
-	
-							<div class="bdbox">
-								<label class="bdxx"><em>*</em>数量</label>
-	
-								<a class="jian" href="javascript:;" onclick="minnumber()">-</a>
-								<input type="text" class="shuliang" size="4" value="1" name="mun" id="mun" onblur="inputnumber();" readonly="">
-								<a class="jia" href="javascript:;" onclick="addnumber()">+</a>
-							</div>
-							<div class="bdbox">
-								<label class="bdxx"><em>*</em>姓名</label>
-								<div class="textbox">
-									<input type="text" name="name">
-								</div>
-							</div>
-							<div class="bdbox">
-								<label class="bdxx"><em>*</em>手机</label>
-								<div class="textbox">
-									<input type="text" name="mob" id="mob">
-								</div>
-							</div>
-							<div class="bdbox">
-								<label class="bdxx"><em>*</em>地区</label>
-								<div class="xlbox">
-									<select name="province" class="dqxl">
-									</select><select name="city" class="dqxl">
-									</select><select name="area" class="dqxl">
-									</select>
-								</div>
-							</div>
-							<div class="bdbox">
-								<label class="bdxx"><em>*</em>地址</label>
-								<div class="textbox">
-									<input type="text" name="address">
-								</div>
-							</div>
-							<div class="bdbox">
-								<label class="bdxx"><em>*</em>金额</label>
-								<div class="text3box">
-									<input type="hidden" name="zfbprice" value="9900">
-									<input name="price" value="9900" readonly="" style="width:80px;"> 元 <span id="zfbyh"></span>
-								</div>
-							</div>
-	
-	
-							<div class="bdbox">
-								<label class="bdxx"><em>*</em>付款</label>
-								<div class="dxbox">
-									<input type="radio" checked="checked" name="pay" id="b1" value="cod" onclick="return changeItem(0);"><label for="b1"><img
-										 src="/Public/images/Home/hdfk.gif"></label>
-	
-	
-								</div>
-							</div>
-	
-							<div class="bdbox">
-								<label class="bdxx">留言</label>
-								<div class="text2box">
-									<textarea name="guest"></textarea>
-								</div>
-							</div>
-							<div class="subbox">
-								<input type='hidden' name='shijian' id='shijian' placeholder="">
-								<script type="text/javascript">
-									window.onload = function () {
-										var nowDate = new Date();
-										var str = nowDate.getFullYear() + "-" + (nowDate.getMonth() + 1) + "-" + nowDate.getDate() + " " + nowDate.getHours() +
-											":" + nowDate.getMinutes() + ":" + nowDate.getSeconds();
-										document.getElementById("shijian").value = str;
-									}
-								</script>
-								<input type="submit" name="submit" value="立即提交订单">
-								<input type="hidden" name="token" value="<?php echo $_SESSION['token']; ?>" />
-								<input type="hidden" name="keyword" value="<?php echo $_COOKIE['keyword']; ?>" />
-								<input type="hidden" name="plan" value="<?php echo $_COOKIE['plan']; ?>" />
-								<input type="hidden" name="unit" value="<?php echo $_COOKIE['unit']; ?>" />
-							</div>
-							<input type="hidden" value="47" name="tltime">
-						</form>
-						<div style="clear:both;"></div>
-					</div>
-				</div>
-				<script>
-					xianshi();
-					var shuxing = new Array();
-					var zsshuxing = new Array();
-					var not3chanpin = new Array("【促销A】53°飞天茅台酒1箱6瓶【赠送3个礼袋+验酒器】", "【促销B】53°飞天茅台酒2箱12瓶【赠送6个礼袋+验酒器】",
-						"【促销C】53°飞天茅台酒4箱24瓶【赠送24个礼袋+验酒器】");
-					var chanpin1 = new Array();
-					var chanpin2 = new Array();
-					var chanpin3 = new Array();
-					var abc1 = new Array();
-					var abc2 = new Array();
-					var abc3 = new Array();
-					var abz1 = new Array();
-					var abz2 = new Array();
-					var abz3 = new Array();
-				</script>
-
 			<article>
 				<!-- <h2>客户评价</h2>
 
@@ -841,63 +897,6 @@
 			</article>
 
 		</div>
-
-
-		<article id="ddd">
-			<h2>订单信息</h2>
-			<!--订单-->
-			<div class="cpshuoming">
-				<p><span style="margin: 0px; color: rgb(192, 0, 0); font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 20px; box-sizing: border-box; background-color: rgb(249, 249, 249);">正品<strong>53°飞天茅台酒</strong>，<strong>整箱购买更优惠</strong>！每人仅限抢购</span><span
-					 style="margin: 0px; color: rgb(192, 0, 0); font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 24px; box-sizing: border-box; background-color: rgb(249, 249, 249);"><strong
-						 style="margin: 0px; box-sizing: border-box;">1次</strong></span><span style="margin: 0px; color: rgb(192, 0, 0); font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 20px; box-sizing: border-box; background-color: rgb(249, 249, 249);">，限购<span
-						 style="margin: 0px; font-size: 24px;"><strong>4箱</strong></span>，售完即止！</span><span style="margin: 0px; color: rgb(192, 0, 0); font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 20px; box-sizing: border-box; background-color: rgb(249, 249, 249);"></span><span
-					 style="margin: 0px; color: rgb(192, 0, 0); font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 20px; box-sizing: border-box; background-color: rgb(249, 249, 249);"><img
-						 src="/Public/images/Home/TB2_67rbcIrBKNjSZK9XXagoVXa_!!767173256.gif"></span></p>
-			</div>
-			<style>
-
-				#order .chanpin label{border: 1px #ccc solid;
-				padding: 0px 13px;
-				float: left;
-				margin-right: 7px;
-				display: inline;
-				margin-bottom: 6px;
-				overflow: hidden;
-				position: relative;
-				cursor: pointer;
-				border-radius: 2px;
-				line-height: 33px;
-				vertical-align: middle;
-				background:#ffffff;
-				}
-				#order .chanpin input[type="radio"] {
-				cursor: pointer;    height: 33px;    left: 0;    opacity: 0;    position: absolute;    top: 0;    width: 100%;    z-index: 999;
-				}
-				#order .chanpin .now{background:#f66;border:1px solid #ccc;color:#ffffff;text-shadow: 0 0 0 #fff;}
-				#order .chanpin label:hover{background:#f66;border:1px solid #FC9F9F;color:#ffffff;text-shadow: 0 0 0 #fff;}
-
-			</style>
-
-			<div id="fahuo">
-				<script type="text/javascript" src="/Public/js/Home/fahuo.js"></script>
-			</div>
-
-			<script type="text/javascript" src="/Public/js/Home/diqu.js"></script>
-			<script type="text/javascript" src="/Public/js/Home/not3.js"></script>
-			<script src="/Public/js/Home/demo.js"></script>
-			<script>
-				$(function () {
-					$("img").lazyload({
-						threshold: 500,
-						effect: "fadeIn"
-					});
-
-				});
-			</script>
-			<!--订单-->
-		</article>
-
-
 		<footer>
 			<p><img src="/Public/images/Home/foot.png"></p>
 			<p></p>
